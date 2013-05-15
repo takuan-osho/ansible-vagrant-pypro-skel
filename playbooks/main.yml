@@ -1,0 +1,13 @@
+---
+
+#main.yml
+
+- hosts: localhost
+  user: vagrant
+  sudo: yes
+  vars:
+     - PORT: 6543
+
+  tasks:
+
+      - include: essential.yml  tags=essential
