@@ -1,13 +1,12 @@
 ---
 
-#main.yml
+# main.yml
 
 - hosts: pypro
   user: vagrant
   sudo: yes
-  vars:
-     - PORT: 6543
 
   tasks:
-
-      - include: essential.yml  tags=essential
+    - include: essential.yml  tags=essential
+    - include: editor.yml     tags=editor
+    - include: python.yml     tags=python
