@@ -1,28 +1,32 @@
-About pypro-skel
-================
+pypro-skelとは?
+===============
 
 Pythonプロフェッショナルプログラミング_ 内で使われているUbuntuの開発環境を Vagrant_ と Ansible_ を使って VirtualBox_ に自動で構築できるplaybookの詰め合わせ。
 
-Aim
-===
+目的
+----
 
 以下箇条書き。
 
-- 個人的に Pythonプロフェッショナルプログラミング_ をまだ学習しきってないので、すぐに仮想環境を用意できるようにする
-- Chef_ でも Puppet_ でも Ansible_ でも何でもいいので、自動でサーバーを構成できる楽しさをすぐに体験できるようにする
+- 個人的に Pythonプロフェッショナルプログラミング_ をまだ学習しきってないので、すぐに仮想環境を用意できるようにすること
+- Chef_ でも Puppet_ でも Ansible_ でも何でもいいので、自動でサーバーを構成できる楽しさをすぐに体験できるようにすること
 
-Usage
------
+使い方
+------
 
 詳しくは後で書く
 
 ::
 
-   pip install ansible
+    vagrant up
 
 ::
 
-   ansible-playbook -i hosts main.yml -u vagrant -k
+    pip install ansible
+
+::
+
+    ansible-playbook -i hosts main.yml -u vagrant -k
 
 SSHのパスワードは公式のものと一緒。
 
