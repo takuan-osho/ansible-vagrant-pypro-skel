@@ -2,7 +2,7 @@
 
 #main.yml
 
-- hosts: localhost
+- hosts: pypro
   user: vagrant
   sudo: yes
   vars:
