@@ -26,7 +26,7 @@ Pythonプロフェッショナルプログラミング_ 内で使われている
 
 ::
 
-    ansible-playbook -i hosts main.yml -k
+    ansible-playbook main.yml -i hosts  -k
 
 SSHのパスワードは公式のものと一緒。
 
