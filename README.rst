@@ -28,6 +28,11 @@ Pythonプロフェッショナルプログラミング_ 内で使われている
         - Ubuntuのバージョン・種類が違うためか、apt-get searchで出てこなかったので入れてません。
     - Redmine
         - 入れるのが(おそらく非常に)面倒なので入れてません。私もまだAnsible初心者なので無理です。
+    - Jenkins
+        - Redmine程ではないにしろ、複数コマンドを行う必要があり、まだ私のAnsibleの理解だと上手く行かなそうなので外しました。
+    - openjdk-6-jre-headless
+        - openjdk-7-jre-headlessがあったので、そちらを入れています。
+        - OpenJDKは Pythonプロフェッショナルプログラミング_ の中ではJenkinsをインストールするためだけに入れていると思われるので、もしopenjdk-7-jre-headlessだと動かない場合は入れ換えて下さい。
     - あと細かいのがあるかもしれませんが忘れました。
 
 
