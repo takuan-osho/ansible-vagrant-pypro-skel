@@ -26,7 +26,7 @@ Pythonプロフェッショナルプログラミング_ 内で使われている
 
 ::
 
-    ansible-playbook -i hosts main.yml -u vagrant -k
+    ansible-playbook -i hosts main.yml -k
 
 SSHのパスワードは公式のものと一緒。
 
