@@ -1,4 +1,4 @@
-pypro-skelとは?
+ansible-vagrant-pypro-skelとは?
 ===============
 
 Pythonプロフェッショナルプログラミング_ 内で使われているUbuntuの開発環境を Vagrant_ と Ansible_ を使って VirtualBox_ に自動で構築できるplaybookの詰め合わせ。
@@ -73,12 +73,12 @@ Ansibleも最初にインストールしておく。
 
 pipやdistributeを入れていない場合は、`ymotongpoo <https://github.com/ymotongpoo>`_ さんの `こちらの記事 <http://ymotongpoo.hatenablog.com/entry/2012/10/18/144352>`_ を参考にするといいと思います。
 
-次にやることは、適当な場所でpypro-skelをcloneした後、Vagrantを使ってVirtualBoxに仮想環境を作ることです。
+次にやることは、適当な場所でansible-vagrant-pypro-skelをcloneした後、Vagrantを使ってVirtualBoxに仮想環境を作ることです。
 
 ::
 
-    git clone git@github.com:takuan-osho/pypro-skel.git
-    cd pypro-skel
+    git clone git@github.com:takuan-osho/ansible-vagrant-pypro-skel.git
+    cd ansible-vagrant-pypro-skel
     vagrant up
 
 これでVirtualBox内に仮想環境が構築されるので、Ansibleを使う準備をします。
