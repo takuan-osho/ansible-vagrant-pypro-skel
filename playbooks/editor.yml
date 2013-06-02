@@ -1,8 +1,0 @@
----
-
-# editor.yml
-
-- name: Install vim
-  apt: pkg=$item
-  with_items:
-    - vim
