@@ -86,7 +86,7 @@ pipやdistributeを入れていない場合は、`ymotongpoo <https://github.com
 ::
 
     cd playbooks
-    ansible-playbook main.yml -i hosts -k
+    ansible-playbook main.yml -i hosts/local -k
 
 こうすると、
 
