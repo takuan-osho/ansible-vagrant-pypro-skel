@@ -1,0 +1,48 @@
+---
+system_packages:
+  - build-essential
+  - libsqlite3-dev
+  - libreadline6-dev
+  - libgdbm-dev
+  - zlib1g-dev
+  - libbz2-dev
+  - sqlite3
+  - tk-dev
+  - zip
+  - python-dev
+  - python-pip
+  - python-setuptools
+  - python3.2
+  - subversion
+  - openjdk-7-jre-headless
+  - nginx
+
+editor:
+  - vim
+
+python_packages:
+  - distribute
+  - virtualenv
+  - virtualenvwrapper
+  - IPython
+  - pep8
+  - pyflakes
+  - Flask
+  - trac
+  - sphinx
+  - mercurial
+  - nose
+  - mock
+  - webtest
+  - django
+  - unittest-xml-reporting
+  - coverage
+  - fabric
+  - gunicorn
+  - South
+  - bpmappers
+  - chardet
+  - feedparser
+  - pillow
+  - pycrypto
+  - tweepy
