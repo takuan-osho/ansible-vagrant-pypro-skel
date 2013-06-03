@@ -3,13 +3,13 @@
 # file: roles/common/tasks/main.yml
 
 - name: Install basic server pkgs
-  apt: pkg=${item} force=yes update_cache=yes
+  apt: pkg={{ item }} force=yes update_cache=yes
   with_items: ${system_packages}
 
-- name: Install vim
-  apt: pkg=${item}
+- name: Install editor
+  apt: pkg={{ item }}
   with_items: ${editor}
 
 - name: Pip install basic server pkgs
-  pip: name=${item}
+  pip: name={{ item }}
   with_items: ${python_packages}
