@@ -9,16 +9,18 @@ system_packages:
   - sqlite3
   - tk-dev
   - zip
-  - python-dev
-  - python-pip
-  - python-setuptools
-  - python3.2
   - subversion
   - openjdk-7-jre-headless
   - nginx
 
 editor:
   - vim
+
+python:
+  - python-dev
+  - python-pip
+  - python-setuptools
+  - python3.2
 
 python_packages:
   - distribute

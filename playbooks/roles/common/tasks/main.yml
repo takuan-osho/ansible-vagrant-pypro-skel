@@ -5,11 +5,19 @@
 - name: Install basic server pkgs
   apt: pkg={{ item }} force=yes update_cache=yes
   with_items: ${system_packages}
+  tags: system-packages
 
 - name: Install editor
   apt: pkg={{ item }}
   with_items: ${editor}
+  tags: editor
 
-- name: Pip install basic server pkgs
+- name: Install Python
+  apt: pkg={{ item }} force=yes update_cache=yes
+  with_items: ${python}
+  tags: python
+
+- name: Pip install basic python pkgs
   pip: name={{ item }}
   with_items: ${python_packages}
+  tags: python-packages
