@@ -1,7 +1,8 @@
 ---
 # file: main.yml
-- hosts: pypro
+- hosts: local
   user: vagrant
   sudo: True
+  tags: local
   roles:
     - common
