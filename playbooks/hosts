@@ -1,2 +1,2 @@
 [local]
-192.168.33.10
+192.168.33.10 ansible_ssh_user=vagrant
